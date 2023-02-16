@@ -1,15 +1,17 @@
-import javax.security.sasl.Sasl;
+package com.example;
 
 public class Employee {
-    int empID;
-    String name;
+    private int empID;
+    private String name;
+    private String SSN;
+    private double salary;
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "com.example.Employee{" +
                 "ID=" + empID +
                 ", Name='" + name + '\'' +
-                ", Social Security Number='" + ssn + '\'' +
+                ", Social Security Number='" + SSN + '\'' +
                 ", Salary=" + salary +
                 '}';
     }
@@ -22,37 +24,28 @@ public class Employee {
         return name;
     }
 
-    public String getSsn() {
-        return ssn;
+    public String getSSN() {
+        return SSN;
     }
 
     public double getSalary() {
         return salary;
     }
 
-    public void setEmpID(int empID) {
-        this.empID = empID;
-    }
+
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setSsn(String ssn) {
-        this.ssn = ssn;
     }
 
     public void setSalary(double salary) {
         this.salary = salary;
     }
 
-    String ssn;
-    double salary;
-
     public Employee(int ID, String Name, String Social_Security_Number, double Salary){
         this.empID = ID;
         this.name = Name;
-        this.ssn = Social_Security_Number;
+        this.SSN = Social_Security_Number;
         this.salary = Salary;
     }
 }
