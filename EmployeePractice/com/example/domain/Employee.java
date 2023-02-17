@@ -1,20 +1,12 @@
-package com.example;
+package com.example.domain;
+
+
 
 public class Employee {
     private int empID;
     private String name;
     private String SSN;
-    private double salary;
-
-    @Override
-    public String toString() {
-        return "com.example.Employee{" +
-                "ID=" + empID +
-                ", Name='" + name + '\'' +
-                ", Social Security Number='" + SSN + '\'' +
-                ", Salary=" + salary +
-                '}';
-    }
+    double salary;
 
     public int getEmpID() {
         return empID;
@@ -31,8 +23,6 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
-
-
 
     public void setName(String name) {
         this.name = name;
