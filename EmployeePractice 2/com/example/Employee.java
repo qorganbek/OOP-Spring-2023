@@ -1,7 +1,7 @@
 package com.example;
 
 import java.util.Objects;
-
+import java.text.NumberFormat;
 public class Employee {
     private int empID;
     private String name;
@@ -17,16 +17,21 @@ public class Employee {
 
     public void setName(String name) {
         if (Objects.equals(name, "") || name == null){
+            System.out.println("Error 404!");
             return;
         }
         this.name = name;
     }
 
-    public void raiseSalary(double numb) {
-        if(salary > 0) return;
+    public void raiseSalary(double number) {
+        if(number > 0) return;
 
-        this.salary += numb;
+        this.salary += number;
     }
+
+
+
+
 
     public int getEmpID() {
         return empID;

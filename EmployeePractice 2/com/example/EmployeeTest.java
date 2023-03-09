@@ -3,10 +3,19 @@ import com.example.domain.Admin;
 import com.example.domain.Director;
 import com.example.domain.Engineer;
 import com.example.domain.Manager;
-
 import java.text.NumberFormat;
 
 public class EmployeeTest {
+
+    static void PrintIn(Employee e) {
+        System.out.println("Hello my name is " + e.getName());
+        System.out.println("Employee id  " + e.getEmpID());
+        System.out.println("Social secret number is " + e.getSSN());
+        System.out.println("My Salary :" + NumberFormat.getCurrencyInstance().format(e.getSalary()));
+    }
+
+
+
     public static void main(String[] args) {
         Engineer e1 = new Engineer(101,
                 "Jane Smith",
@@ -47,6 +56,7 @@ public class EmployeeTest {
         e1.setName("");
         System.out.println(e1);
         System.out.println(NumberFormat.getCurrencyInstance().format(e1.getSalary()));
+        PrintIn(m1);
 
     }
 }

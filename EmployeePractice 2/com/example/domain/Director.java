@@ -11,6 +11,10 @@ public class Director extends Manager {
         return this.budget;
     }
 
+    public void setBudget(double budget){
+        this.budget = budget;
+    }
+
 
     @Override
     public String toString() {
