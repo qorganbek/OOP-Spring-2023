@@ -15,7 +15,7 @@ public abstract class Account {
     protected double balance;
 
     public Account(double bal) {
-        this.balance= bal;
+        this.balance = bal;
     }
 
     public double getBalance() {

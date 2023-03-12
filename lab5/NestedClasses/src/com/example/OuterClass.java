@@ -2,6 +2,10 @@ package com.example;
 
 public class OuterClass {
 
+
+
+
+    
     //some types of nested class 
     public int x = 42;
 
