@@ -1,7 +1,7 @@
 package com.example;
 
 public class Cat extends Animal implements Pet {
-    
+    private Ambulatory ambulatory;
 //    private String name;
     private Nameable nameable_current = new NameableImpl();
 
@@ -13,6 +13,7 @@ public class Cat extends Animal implements Pet {
     
     public Cat(String name) {
         super(4);
+        ambulatory = new AmbulatoryImpl(4);
         setName(name);
     }
 
@@ -46,4 +47,9 @@ public class Cat extends Animal implements Pet {
         return nameable_current.getName();
     }
 
+
+    @Override
+    public void walk() {
+        ambulatory.walk();
+    }
 }

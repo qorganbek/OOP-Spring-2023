@@ -32,12 +32,6 @@ public class Fish extends Animal implements Pet {
     }
 
     @Override
-    public void walk() {
-        super.walk();
-        System.out.println("Fish, of course, can't walk; they swim.");
-    }
-
-    @Override
     public void setName(String name) {
         nameable_current.setName(name);
     }
