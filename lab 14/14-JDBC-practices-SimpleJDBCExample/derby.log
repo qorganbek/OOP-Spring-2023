@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Apr 22 18:59:53 ALMT 2023:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): экземпляр a816c00e-0187-a90c-ad3f-00000737a228
+в каталоге базы данных C:\Study\Spring2023\OOP\lab 14\14-JDBC-practices-SimpleJDBCExample\lib\javaoop jdk.internal.loader.ClassLoaders$AppClassLoader@2f0e140b 
+
+java.vendor=Oracle Corporation
+java.runtime.version=18.0.2.1+1-1
+user.dir=C:\Study\Spring2023\OOP\lab 14\14-JDBC-practices-SimpleJDBCExample
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''

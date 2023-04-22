@@ -11,6 +11,7 @@ public class Store {
     //singleton
 
     private Store() {
+
     }
     //singleton
 
