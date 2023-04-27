@@ -43,9 +43,9 @@ public class Optional {
     private static void addEmployee(){
         try{
             PreparedStatement statement = connection.prepareStatement("INSERT INTO EMPLOYEE (ID, FIRSTNAME, LASTNAME, BIRTHDATE, SALARY) VALUES (?, ?, ?, ?, ?)");
-            statement.setInt(1, 555);
-            statement.setString(2, "Dinmukhammed");
-            statement.setString(3, "Korganbek");
+            statement.setInt(1, 745);
+            statement.setString(2, "Almas");
+            statement.setString(3, "Sailaubekov");
             statement.setDate(4, new java.sql.Date(new SimpleDateFormat("yyyy-MM-dd").parse("2003-12-19").getTime()));
             statement.setDouble(5, 555555.55);
 

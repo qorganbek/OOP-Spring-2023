@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Sat Apr 22 19:32:43 ALMT 2023:
- Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): экземпляр a816c00e-0187-a92a-bf7d-0000073bb7b8
+Mon Apr 24 13:00:33 ALMT 2023:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): экземпляр a816c00e-0187-b210-6a13-0000073bce48
 в каталоге базы данных C:\Study\Spring2023\OOP\lab 14\14-JDBC-practices-EmployeeDAOJDBC\lib\javaoop jdk.internal.loader.ClassLoaders$AppClassLoader@2f0e140b 
 
 java.vendor=Oracle Corporation
